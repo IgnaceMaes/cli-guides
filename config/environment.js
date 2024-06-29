@@ -33,6 +33,25 @@ module.exports = function (environment) {
       sourceRepo: 'https://github.com/ember-learn/cli-guides',
       sourceBranch: 'main',
     },
+
+    'ember-showdown-shiki': {
+      theme: 'github-dark',
+      languages: [
+        'bash',
+        'css',
+        'http',
+        'javascript',
+        'json',
+        'json5',
+        'ruby',
+        'scss',
+        'yaml',
+        'typescript',
+        'glimmer-js',
+        'glimmer-ts',
+        'handlebars',
+      ],
+    },
   };
 
   if (environment === 'development') {
